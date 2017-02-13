@@ -1,0 +1,9 @@
+%X = [1 2; 3 4; 5 6];
+y = [3; 4; 5;];
+theta = [1; 2; 3];
+
+%disp(size(X))
+%disp(size(theta))
+%disp(theta' * X)
+
+computeCost(X, y, theta)
