@@ -87,6 +87,33 @@ end
 
 J
 
+% Now lets regularise!
+
+% Theta1 term
+theta1sum = 0
+
+for j = 1:size(Theta1,1)
+    for k = 2:size(Theta1,2)
+        theta1sum = theta1sum + Theta1(j,k)^2
+    end
+end
+        
+% Theta2 term
+theta2sum = 0
+for j = 1:size(Theta2,1)
+    for k = 2:size(Theta2,2)
+        theta2sum = theta2sum + Theta2(j,k)^2
+    end
+end
+        
+J = J + ((lambda/(2*m)) * (theta1sum + theta2sum))
+
+
+
+
+        
+
+
 
 
 

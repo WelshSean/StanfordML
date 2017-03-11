@@ -5,4 +5,8 @@ nn = [ 1:18 ] / 10;  % nn_params
 X = cos([1 2 ; 3 4 ; 5 6]);
 y = [4; 2; 3];
 lambda = 4;
-[J grad] = nnCostFunction(nn, il, hl, nl, X, y, 0);
+
+% Unregularised - Should be 7.4070 for J
+%[J grad] = nnCostFunction(nn, il, hl, nl, X, y, 0);
+% Regularised - SHould be 19.474 for J
+[J grad] = nnCostFunction(nn, il, hl, nl, X, y, lambda)
