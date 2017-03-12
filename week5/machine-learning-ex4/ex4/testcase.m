@@ -9,4 +9,6 @@ lambda = 4;
 % Unregularised - Should be 7.4070 for J
 %[J grad] = nnCostFunction(nn, il, hl, nl, X, y, 0);
 % Regularised - SHould be 19.474 for J
-[J grad] = nnCostFunction(nn, il, hl, nl, X, y, lambda)
+[J grad] = nnCostFunction(nn, il, hl, nl, X, y, lambda);
+J 
+grad

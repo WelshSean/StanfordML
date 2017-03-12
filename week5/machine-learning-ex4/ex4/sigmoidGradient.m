@@ -8,7 +8,7 @@ function g = sigmoidGradient(z)
 
 g = zeros(size(z));
 
-g = sigmoid(z) .* (1 - sigmoid(z))
+g = sigmoid(z) .* (1 - sigmoid(z));
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the gradient of the sigmoid function evaluated at

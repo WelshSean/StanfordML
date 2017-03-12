@@ -69,11 +69,11 @@ Z2 = Xbias * Theta1';    % Need to Transpose to get Column vector]
 
 A2 = sigmoid(Z2);
 mm = size(A2, 1);
-A2 = [ones(mm,1) A2]
+A2 = [ones(mm,1) A2];
 
 Z3 = A2 * Theta2';
 
-Htheta = sigmoid(Z3)
+Htheta = sigmoid(Z3);
 
 eye_matrix = eye(num_labels);
 y_matrix = eye_matrix(y,:);
@@ -85,31 +85,52 @@ for i = 1:m
 end
         J = (1/m) * J;
 
-J
+
 
 % Now lets regularise!
 
 % Theta1 term
-theta1sum = 0
+theta1sum = 0;
 
-for j = 1:size(Theta1,1)
-    for k = 2:size(Theta1,2)
-        theta1sum = theta1sum + Theta1(j,k)^2
+for j = 1:size(Theta1,1);
+    for k = 2:size(Theta1,2);
+        theta1sum = theta1sum + Theta1(j,k)^2;
     end
 end
         
 % Theta2 term
-theta2sum = 0
-for j = 1:size(Theta2,1)
-    for k = 2:size(Theta2,2)
-        theta2sum = theta2sum + Theta2(j,k)^2
+theta2sum = 0;
+for j = 1:size(Theta2,1);
+    for k = 2:size(Theta2,2);
+        theta2sum = theta2sum + Theta2(j,k)^2;
     end
 end
         
-J = J + ((lambda/(2*m)) * (theta1sum + theta2sum))
+J = J + ((lambda/(2*m)) * (theta1sum + theta2sum));
 
 
+% Now back propagation
 
+for t = 1:m
+    delta3 = Htheta - y_matrix;
+    delta2 = delta3 * Theta2(:,2:end) .* sigmoidGradient(Z2);
+    D1 = delta2' * Xbias;
+    D2 = delta3' * A2;
+    Theta1_grad = (1/m) * D1;
+    Theta2_grad = (1/m) * D2;
+    % Set j=0 (first column of theta^l ) to zero so that its not
+    % regularised
+    Theta1_reg = Theta1;
+    Theta1_reg(:,1)=0;
+    Theta1_reg = (lambda/m) * Theta1_reg;
+    Theta2_reg = Theta2;
+    Theta2_reg(:,1)=0;
+    Theta2_reg = (lambda/m) * Theta2_reg;
+    % Now add to unregularised gradients
+    Theta1_grad = Theta1_grad + Theta1_reg;
+    Theta2_grad = Theta2_grad + Theta2_reg;
+    
+end
 
         
 
