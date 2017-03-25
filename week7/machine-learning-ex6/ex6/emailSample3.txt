@@ -1,0 +1,42 @@
+1. Optimizing app delivery with load balancers
+Derek DeJonghe explains how good load balancers can distribute load, add security, and maintain performance and flexibility in web application delivery.
+2. What's really behind your database bottleneck
+Baron Schwartz tells you what to look for in database design and delivery to make your mobile app perform as fast as possible.
+3. The economics of serverless computing
+One of the many benefits of serverless computing is reduced costs in building and running software systems. But is this the case? Rafal Gancarz of OpenCredo, writing for TechBeacon, reviews the economics of serverless computing, including analyzing pricing models, real-world examples of the savings, and insights and tips on how to keep your serverless costs under control.
+4. New speakers, new direction, and Best Price (through March 30)
+The O'Reilly Velocity Conference is returning for its 10th year, reenergized, focused on an exciting new direction, and ready to take on today's (and tomorrow's) digital challenges. We've been busy building the program, which includes almost 50 speakers who are completely new to Velocity, such as Miles Ward (Google), Julia Grace (Slack), Matt Klein (Lyft), Henry Robinson (Cloudera), and Nora Jones (Netflix).
+
+In addition to great keynotes, like Peter Alvaro's (UC Santa Cruz) talk on Orchestrating chaos: Applying database research in the wild, we've got a load of thought-provoking sessions, tutorials, and training lined up, too. Join 2000+ of your peers, June 19–22 in San Jose, CA. Register before March 30 to save hundreds of dollars during Best Price.
+See pricing and discounts →
+5. Build a "serverless" Slack bot in nine minutes
+Slack bots—they're fun, they're useful, and people are building new businesses around bot-interaction models on a daily basis. Ready to learn a new technique? Here's a quick guide to building a serverless Slack bot in nine minutes with Node.js and StdLib.
+In collaboration with Hewlett Packard Enterprise
+Mobile application survey (and a chance to win $300 worth of O'Reilly ebooks)
+Across the globe, organizations are seeking to compete in the field of mobile applications, but how they approach it varies widely. HPE designed this one-question survey to find out what you and your organization are doing with mobile application. Just check all the answers that are relevant and, in exchange, you'll get a chance to win $300 worth of O'Reilly ebooks.
+Take the survey →
+6. Misunderstanding DevOps
+While reading The DevOps Handbook, written by the fathers of the DevOps movement (P. Debois, G. Kim, J. Humble and J. Willis), Adam Barreiro realized his mind was full of wrong concepts about what DevOps is truly about.
+7. Cost savings in Azure without moving to PaaS
+Recently the DevOpsGuys were asked to help a company to reduce the costs of their infrastructure in Microsoft Azure. The company wanted to move rapidly, so working on a plan to re-architect their system to make use of the Platform-as-a-Service (PaaS) features that Azure provides wasn't a viable option. They had to find another way.
+8. How to test your Docker image in half a second
+In a brief tutorial, you'll walk through a simple way of writing and testing Docker images. Your tests will validate the official Nginx Docker image using Goss in ~0.5s. If you're more of a visual person, watch the video version that's at the bottom of this blog post.
+In collaboration with Hewlett Packard Enterprise
+Free ebook: Effective Application Performance Testing
+Modern businesses live and die by the performance of mission-critical software, and yet, performance testing continues to be the poor, neglected cousin of tests for functional and operational acceptance. This doesn't have to be the case with Ian Molyneaux's thorough and much-needed guide to conducting performance testing on applications before you release them into the wild. 
+
+In this 51-page excerpt from the new, second edition of The Art of Application Performance Testing, Ian introduces you to the fundamentals of effective performance testing. You'll learn the elements necessary to design a performance test environment, how to determine which tests you need to conduct, and much more. Download your copy, compliments of HPE, and dive into application performance testing.
+Get your free copy now →
+9. Ten tips for securing microservices architecture
+Microservices are subcomponents of applications which can yield greater efficiencies. This post covers their benefits as well as security best practices.
+10. Twelve ways to ruin your UC cloud migration
+Unified communications (UC) are moving to the cloud in a big way. Even enterprises once reluctant to make the transition are now embracing the cloud. Yet many IT teams are still concerned about the risks. If you're pondering your own UC migration, look out for these twelve major pitfalls that can ruin your otherwise successful transition.
+11. Apply to speak at Velocity in London: proposals due May 2
+Are you on the front lines of building and managing systems that are too large to understand, too complex to control, and that fail in unpredictable ways? Do you have strategies, tactics, tools, and approaches that have helped you effectively deal with this uncertainty? If so, we want to hear from you. 
+
+We invite proposals from system engineers, architects, developers, system administrators, operations managers, site reliability engineers, and more—people with stories of great success and worthy failures, especially if they provide clear ideas for what to do next. And while people need a sense of what's possible, bring concrete technical solutions above all else. 
+
+Please read our tips for preparing a proposal, and then submit your idea (or ideas) by 23:59 BST May 2, 2017.
+Get started on your proposal now →
+Thank you to our sponsors
+Diamond Sponsor
